@@ -1,2 +1,10 @@
 mixin parsing-footer()
-  p parsing footer
+  .parsing-footer__column
+    form.parsing-footer__search-form.search-form2
+      input(type="text" placeholder="Поиск").search-form2__input
+      button(type="submit").icon-search.search-form2__icon 
+    .progress.parsing-footer__progress  
+      .progress-bar.parsing-footer__progress-bar(role="progressbar" style="width: 87%;" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100") 87%
+  .parsing-footer__column 
+    .parsing-footer__p Найдено 350 статей
+    button.parsing-footer__btn Запустить парсинг выбранных статей
