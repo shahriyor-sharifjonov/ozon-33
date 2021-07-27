@@ -1153,7 +1153,7 @@ body{
   background: #fff;
   border-radius: 6px;
   padding: 15px 15px 15px 21px;
-  height: calc(100% - 110px);
+  height: calc(100% - 70px);
   width: 100%;
   margin-bottom: 11px;
 
@@ -1611,6 +1611,16 @@ body{
     &__row{
       width: 100%;
       margin: 0;
+      cursor: pointer;
+      transition: 200ms ease;
+      border-radius: 6px;
+
+      &:hover{
+        background: #E4E4E4;
+      }
+      &.current{
+        background: #E4E4E4;
+      }
     }
 
     &__column{
@@ -1624,7 +1634,7 @@ body{
     &__item{
       background: #fff;
       height: 32px;
-      margin: 2.5px;
+      margin: 3px;
       border-radius: 6px;
       display: flex;
       align-items: center;

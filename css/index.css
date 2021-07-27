@@ -1273,7 +1273,7 @@ body {
   background: #fff;
   border-radius: 6px;
   padding: 15px 15px 15px 21px;
-  height: calc(100% - 110px);
+  height: calc(100% - 70px);
   width: 100%;
   margin-bottom: 11px;
 }
@@ -1789,6 +1789,16 @@ body {
 .parsing-body__row {
   width: 100%;
   margin: 0;
+  cursor: pointer;
+  -webkit-transition: 200ms ease;
+  transition: 200ms ease;
+  border-radius: 6px;
+}
+.parsing-body__row:hover {
+  background: #E4E4E4;
+}
+.parsing-body__row.current {
+  background: #E4E4E4;
 }
 .parsing-body__column {
   padding: 0;
@@ -1799,7 +1809,7 @@ body {
 .parsing-body__item {
   background: #fff;
   height: 32px;
-  margin: 2.5px;
+  margin: 3px;
   border-radius: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
