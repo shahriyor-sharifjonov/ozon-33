@@ -1155,6 +1155,7 @@ body {
   width: 85px;
   border: none;
   background: none;
+  height: 32px;
   font-weight: 600;
   font-size: 12px;
   line-height: 17px;
@@ -1551,11 +1552,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 32px;
-  width: 150px;
+  width: 200px;
 }
 .search-form__input {
   height: 100%;
-  width: 124px;
+  width: 164px;
   border: none;
   border-radius: 6px 0 0 6px;
   font-style: normal;
@@ -1913,14 +1914,14 @@ body {
   background: none;
 }
 
-.btn-primary {
+.btn-myprimary {
   background: #00498D;
   border: none;
   -webkit-transition: 200ms ease;
   transition: 200ms ease;
   color: #fff;
 }
-.btn-primary:hover {
+.btn-myprimary:hover {
   background: #fff;
   color: #00498D;
 }
