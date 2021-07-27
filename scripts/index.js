@@ -36,6 +36,7 @@ $( function() {
   }
 } );
 
+
 const tag = document.querySelectorAll('.tags-xl-tag');
 
 tag.forEach(el => {
@@ -603,6 +604,14 @@ function selectedSidebar(){
           </div>
         </div>
   `
+
+
+
+  $('.sidebar__imgs-item').click(function(){
+    $('.sidebar__imgs-item').removeClass('sidebar__imgs-item_current');
+    $(this).addClass('sidebar__imgs-item_current');
+  })
+
 
   sidebarFooter.innerHTML = `
   <button class="save-btn sidebar-footer__btn"> 
