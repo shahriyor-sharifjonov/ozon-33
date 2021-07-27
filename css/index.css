@@ -1287,7 +1287,7 @@ body {
           justify-content: space-between;
 }
 .sidebar-footer__btn:last-child {
-  max-width: 230px;
+  max-width: 270px;
   width: 100%;
   margin-left: 11px;
 }
@@ -1788,7 +1788,7 @@ body {
 }
 .parsing-body__row {
   width: 100%;
-  margin: 0;
+  margin: 2px 0;
   cursor: pointer;
   -webkit-transition: 200ms ease;
   transition: 200ms ease;
